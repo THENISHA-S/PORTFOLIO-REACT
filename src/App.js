@@ -1,14 +1,24 @@
-import React from 'react';
-import './App.css';
-
+import "./App.css";
+import "./index.css";
+import {BrowserRouter as Router, Routes,Route } from "react-router-dom";
+import Home from "./pages/Home";
+import Project from "./pages/Project";
+import Experience from "./pages/Experience";
+import Navbar from "./components/Navbar";
 
 const App =() =>{
-    return (
-      <div>
-     <h1 className='app'><i>HI THIS IS THENISHA!</i> </h1>
-     <h1>hi</h1>
-     </div>
-     );
+  return(
+    <div className="App">
+      <Router>
+        <Navbar/>
+        <Routes>
+          <Route path="/" element={<Home/>}/>
+          <Route path="/project" element={<Project/>}/>
+          <Route path="/experience" element={<Experience/>}/>
+        </Routes>
+      </Router>
+    </div>
+  )
 }
 
 export default App;
