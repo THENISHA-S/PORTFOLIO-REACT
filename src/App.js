@@ -5,7 +5,7 @@ import Home from "./pages/Home";
 import Project from "./pages/Project";
 import Experience from "./pages/Experience";
 import Navbar from "./components/Navbar";
-
+import Footer from "./components/Footer";
 const App =() =>{
   return(
     <div className="App">
@@ -16,6 +16,7 @@ const App =() =>{
           <Route path="/project" element={<Project/>}/>
           <Route path="/experience" element={<Experience/>}/>
         </Routes>
+        <Footer/>
       </Router>
     </div>
   )

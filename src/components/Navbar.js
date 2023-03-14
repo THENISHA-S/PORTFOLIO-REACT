@@ -1,6 +1,7 @@
 import React from "react";
 import { Link } from "react-router-dom";
 import "../styles/Navbar.css";
+// import ReorderIcon from "@material-ui/icons/Reorder";
 const Navbar=()=>{
     return(
         <div className="navbar">
@@ -8,8 +9,8 @@ const Navbar=()=>{
                 <button></button>
             </div>
             <div className="links">
-                <Link to="/">Hom</Link>
-                <Link to="/project">project</Link>
+                <Link to="/">Home</Link>
+                <Link to="/project">Projects</Link>
                 <Link to="/experience">Experience</Link>
             </div>
         </div>
