@@ -18,7 +18,7 @@ const Education=()=>{
                 <h3 className="vertical-timeline-element-title">
                     Kongunadu matric Hr.Sec.School, Namakkal
                 </h3>
-                <p>SSLC</p>
+                <p>SSLC(2018-2019)</p>
 
                 </VerticalTimelineElement>
                 <VerticalTimelineElement
@@ -29,7 +29,7 @@ const Education=()=>{
                 <h3 className="vertical-timeline-element-title">
                     Kongunadu matric Hr.Sec.School, Namakkal
                 </h3>
-                <p>HSC</p>
+                <p>HSC(2020-2021)</p>
 
                 </VerticalTimelineElement>
                 <VerticalTimelineElement
@@ -40,7 +40,7 @@ const Education=()=>{
                 <h3 className="vertical-timeline-element-title">
                     Bannari Amman Institute Of Technology, Sathyamangalam, Erode
                 </h3>
-                <p>UG</p>
+                <p>UG(2021-2024)</p>
 
                 </VerticalTimelineElement>
             </VerticalTimeline>
