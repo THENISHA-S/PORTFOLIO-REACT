@@ -1,9 +1,8 @@
 import React from "react";
 import ProjectItem from "../components/Projectitem";
-// import darkweb from "../assets/darkweb.jpg";
-// import deftpatrol from "../assets/deftpatrol.jpg";
 import "../styles/projects.css";
 import { ProjectList } from "../helpers/ProjectList";
+import ProjectDisplay from "./projectDisplay";
 const Project = () =>{
     return(
         <div className="project">
