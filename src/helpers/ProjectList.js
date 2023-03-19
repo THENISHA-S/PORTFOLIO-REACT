@@ -1,13 +1,16 @@
-import deftpatrol from "../assets/deftpatrol.jpg";
-import darkweb from "../assets/darkweb.jpg";
+import Darkweb from "../assets/darkweb.jpg";
+import Deftpatrol from "../assets/deftpatrol.jpg";
 
-export const ProjectList = [
+export const ProjectList=()=>[
     {
-        name:"Deft Patrol",
-        image:deftpatrol,
+        name:"Darkweb Crawling",
+        image:Darkweb,
+        
     },
     {
-        name:"Dark Web",
-        image:darkweb,
+        name:"Deft patrol Application",
+        image:Deftpatrol,
     },
 ];
+
+export default ProjectList;

@@ -1,18 +1,27 @@
 import React from "react";
-import ProjectItem from "../components/Projectitem";
-import "../styles/projects.css";
-import { ProjectList } from "../helpers/ProjectList";
-import ProjectDisplay from "./projectDisplay";
-const Project = () =>{
-    return(
-        <div className="project">
-            <h1>My personal projects</h1>
-            <div className="projectList"></div>
-            {ProjectList.map((project)=>{
-                return <ProjectItem name={project.name} image ={project.image}/> 
-            })}
+import ProjectItem from "../components/ProjectItem";
+import "../styles/Project.css";
+import Darkweb from "../assets/darkweb.jpg";
+import Deftpatrol from "../assets/deftpatrol.jpg";
+
+// import { projectList } from "../helpers/ProjectList";
+
+const Project = () => {
+    return (
+        <div className="projects">
+            <h1>My personal Projects</h1>
+            <div className="projectList">
+                <ProjectItem name="Dark Web Crawling" image={Darkweb} />
+                <ProjectItem name="Deft Patrol crawling" image={Deftpatrol} />
+            </div>
+
         </div>
-    )
+    );
 }
 
-export default Project
+export default Project;
+
+
+
+
+
