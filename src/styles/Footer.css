@@ -5,17 +5,17 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    flex-direction: column;
-    padding-top: 10px;
+    flex-direction: row;
+    padding-top: 20px;
     margin-top: 200px;
   }
   
-  .socialMedia svg {
+  /* .socialMedia svg {
     color: white;
     margin: 20px;
     font-size: 70px;
     cursor: pointer;
-  }
+  } */
   
   .footer p {
     color: white;
@@ -25,4 +25,10 @@
     .footer svg {
       font-size: 50px;
     }
+  }
+
+  .logo-icon{
+    height: 50px;
+    width: 50px;
+    padding-right: 30px;
   }
