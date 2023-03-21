@@ -5,7 +5,6 @@ import {
     } from "react-vertical-timeline-component";
 import "react-vertical-timeline-component/style.min.css";
 import {GiGraduateCap} from "react-icons/gi";
-// import SchoolIcon from "@material-ui/icon/School";
 
 const Education=()=>{
     return(
@@ -21,6 +20,7 @@ const Education=()=>{
                     Kongunadu matric Hr.Sec.School, Namakkal
                 </h3>
                 <p>SSLC(2017-2018)</p>
+                <p>Percentage: 89.4</p>
 
                 </VerticalTimelineElement>
                 <VerticalTimelineElement
@@ -33,6 +33,7 @@ const Education=()=>{
                     Kongunadu matric Hr.Sec.School, Namakkal
                 </h3>
                 <p>HSC(2019-2020)</p>
+                <p>Percentage: 84</p>
 
                 </VerticalTimelineElement>
                 <VerticalTimelineElement

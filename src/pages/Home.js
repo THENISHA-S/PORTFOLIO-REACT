@@ -1,32 +1,35 @@
 import React from "react";
 import "../styles/Home.css";
-
+import {RiContactsFill} from "react-icons/ri";
+import {MdEmail} from "react-icons/md";
 const Home = () =>{
     return(
         <div className="home">
             <div className="about">
-               <h1><i>Hi!! I'm THENISHA S</i></h1>
+               <h2><i>Hi!! I'm THENISHA S</i></h2>
                <div className="prompt">
-                <h4>An independent and self-motivated student looking for an
-                    entry-level position in the software company where I can
-                    utilize the extensive knowledge I have gained during my
-                    course. I am good at programming and problem solving.</h4>
+                <h4><em>An independent and self motivated student with a passion for learning and developing.</em></h4>
                </div>
+               <RiContactsFill size="30px"/>
+               <p>+91 9940870631</p>
+               <MdEmail size="30px"/>
+               <p>thenishasaravanan2002@gmail.com</p>
+
             </div>
             <div className="skills">
                 <h1>SKILLS</h1>
                 <ol className="list">
                 <li className="item">
-                    <h2>Front-End</h2>
+                    <h1>Programming</h1>
+                    <span>C,C++,Java</span>
+                </li>
+                <li className="item">
+                    <h1>Front-End</h1>
                     <span>HTML,CSS,Javascript,React js</span>
                 </li>
                 <li className="item">
-                    <h2>Back-End</h2>
+                    <h1>Back-End</h1>
                     <span>MySQL, Node js, MongoDB</span>
-                </li>
-                <li className="item">
-                    <h2>Programming</h2>
-                    <span>C,C++,Java</span>
                 </li>
                 </ol>
             </div>

@@ -11,7 +11,7 @@ const ProjectDisplay=()=>{
         <div className="project">
             <h1>{projects.name}</h1>
             <img src={projects.image}/>
-            
+            <h2>{projects.skills}</h2>
         </div>
     );
 }

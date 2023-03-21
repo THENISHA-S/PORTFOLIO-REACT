@@ -1,7 +1,6 @@
 import React from "react";
 import { Link } from "react-router-dom";
 import "../styles/Navbar.css";
-// import ReorderIcon from "@material-ui/icons/Reorder";
 const Navbar=()=>{
     return(
         <div className="navbar">

@@ -14,7 +14,7 @@
   align-items: center;
   text-align: center;
   background-color: #21325e;
-  color: #f0f0f0;
+  color: #fff;
 }
 
 .about h2 {
@@ -26,7 +26,7 @@
 
 .about .prompt {
   width: 40%;
-  font-size: 30px;
+  font-size: 20px;
 }
 .prompt svg {
   font-size: 60px;
@@ -35,7 +35,7 @@
 }
 
 .skills {
-  font-size: 35px;
+  font-size: 30px;
   width: 100%;
   display: flex;
   justify-content: center;
@@ -45,6 +45,7 @@
 
 .skills h1 {
   color: #3e497a;
+  font-size: 40px;
 }
 
 .skills .list {
@@ -53,7 +54,7 @@
 }
 
 .list span {
-  font-size: 20px;
+  font-size: 30px;
 }
 
 @media only screen and (max-width: 600px) {
