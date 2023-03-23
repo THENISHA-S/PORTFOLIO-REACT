@@ -8,7 +8,7 @@ const Home = () =>{
             <div className="about">
                <h2><i>Hi!! I'm THENISHA S</i></h2>
                <div className="prompt">
-                <h4><em>An independent and self motivated student with a passion for learning and developing.</em></h4>
+                <h4><em>An independent and self motivated person with a passion for learning and developing.</em></h4>
                </div>
                <RiContactsFill size="30px"/>
                <p>+91 9940870631</p>
