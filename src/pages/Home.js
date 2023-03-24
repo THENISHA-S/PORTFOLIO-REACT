@@ -1,10 +1,19 @@
 import React from "react";
 import "../styles/Home.css";
+import Typewriter from "typewriter-effect";
 import {RiContactsFill} from "react-icons/ri";
 import {MdEmail} from "react-icons/md";
 const Home = () =>{
     return(
         <div className="home">
+            <div>
+                <Typewriter
+                   onInit={(typewriter)=>{
+                    typewriter.typeString("Hi I'm Thenisha S")
+                    .start();
+                   }}  
+                />
+            </div>
             <div className="about">
                <h2><i>Hi!! I'm THENISHA S</i></h2>
                <div className="prompt">
