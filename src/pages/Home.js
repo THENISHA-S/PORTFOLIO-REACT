@@ -42,7 +42,7 @@ const Home = () =>{
                     <span>MySQL, Node js, MongoDB</span>
                 </li>
                 </ol>
-                </div>*/}
+                </div>
         </div> 
     )
 }
