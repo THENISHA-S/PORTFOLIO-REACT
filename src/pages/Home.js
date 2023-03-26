@@ -3,6 +3,11 @@ import "../styles/Home.css";
 import Typewriter from "typewriter-effect";
 import {RiContactsFill} from "react-icons/ri";
 import {MdEmail} from "react-icons/md";
+import {BsFillCCircleFill} from "react-icons/bs";
+import {IoLogoHtml5} from "react-icons/io";
+import {IoLogoJavascript} from "react-icons/io"; 
+import {IoLogoCss3} from "react-icons/io";
+import {IoLogoNodejs} from "react-icons/io";
 const Home = () =>{
     return(
         <div className="home">
@@ -31,15 +36,20 @@ const Home = () =>{
                 <ol className="list">
                 <li className="item">
                     <h1>Programming</h1>
-                    <span>C,C++,Java</span>
+                    <span><BsFillCCircleFill size="60px"/>
+                          </span>
+                    
+                    
                 </li>
                 <li className="item">
                     <h1>Front-End</h1>
-                    <span>HTML,CSS,Javascript,React js</span>
+                    <span><IoLogoHtml5 size="60px"/>
+                    <IoLogoCss3 size="60px"/>
+                    <IoLogoJavascript size="60px"/></span>
                 </li>
                 <li className="item">
                     <h1>Back-End</h1>
-                    <span>MySQL, Node js, MongoDB</span>
+                    <span><IoLogoNodejs size="60px"/></span>
                 </li>
                 </ol>
                 </div>
