@@ -3,11 +3,9 @@ import "../styles/Home.css";
 import Typewriter from "typewriter-effect";
 import {RiContactsFill} from "react-icons/ri";
 import {MdEmail} from "react-icons/md";
-import {BsFillCCircleFill} from "react-icons/bs";
-import {IoLogoHtml5} from "react-icons/io";
-import {IoLogoJavascript} from "react-icons/io"; 
-import {IoLogoCss3} from "react-icons/io";
-import {IoLogoNodejs} from "react-icons/io";
+// import {BsFillCCircleFill} from "react-icons/bs";
+
+
 const Home = () =>{
     return(
         <div className="home">
@@ -32,27 +30,37 @@ const Home = () =>{
                
 
             <div className="skills">
-                <h1>SKILLS</h1>
+                <h1><i>TECHNOLOGIES</i></h1>
+                <div className="list">
+                   <h1><i>Front-End</i></h1>
+                   <div>
+                    <img className="picture" src="https://p92.com/binaries/content/gallery/p92website/technologies/htmlcssjs-details.png" alt=""/>
+                    <img className="picture"src="https://upload.wikimedia.org/wikipedia/commons/thumb/a/a7/React-icon.svg/1200px-React-icon.svg.png" alt=""/>
+                   </div>
+                </div>
+            </div>
+             {/* <div className="skills">
+                <h1><i>TECHNOLOGIES</i></h1>
                 <ol className="list">
-                <li className="item">
+                 <li className="item">
                     <h1>Programming</h1>
                     <span><BsFillCCircleFill size="60px"/>
                           </span>
                     
-                    
-                </li>
+    
+                </li> 
                 <li className="item">
-                    <h1>Front-End</h1>
+                    <h1><em>Front-End</em></h1>
                     <span><IoLogoHtml5 size="60px"/>
                     <IoLogoCss3 size="60px"/>
                     <IoLogoJavascript size="60px"/></span>
                 </li>
                 <li className="item">
-                    <h1>Back-End</h1>
+                    <h1><em>Back-End</em></h1>
                     <span><IoLogoNodejs size="60px"/></span>
                 </li>
                 </ol>
-                </div>
+                </div>  */}
         </div> 
     )
 }
