@@ -35,7 +35,7 @@ const Home = () =>{
                    <h1><i>Front-End</i></h1>
                    <div>
                     <img className="picture" src="https://p92.com/binaries/content/gallery/p92website/technologies/htmlcssjs-details.png" alt=""/>
-                    <img className="picture"src="https://upload.wikimedia.org/wikipedia/commons/thumb/a/a7/React-icon.svg/1200px-React-icon.svg.png" alt=""/>
+                    {/* <img className="picture"src="https://upload.wikimedia.org/wikipedia/commons/thumb/a/a7/React-icon.svg/1200px-React-icon.svg.png" alt=""/> */}
                    </div>
                 </div>
             </div>
