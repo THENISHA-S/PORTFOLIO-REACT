@@ -38,6 +38,9 @@ const Home = () =>{
                     {/* <img className="picture"src="https://upload.wikimedia.org/wikipedia/commons/thumb/a/a7/React-icon.svg/1200px-React-icon.svg.png" alt=""/> */}
                    </div>
                 </div>
+                <div className="list">
+                   <h1><i>Back-End</i></h1>
+                </div>
             </div>
              {/* <div className="skills">
                 <h1><i>TECHNOLOGIES</i></h1>
