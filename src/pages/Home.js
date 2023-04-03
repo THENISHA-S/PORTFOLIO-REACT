@@ -30,40 +30,54 @@ const Home = () =>{
                
 
             <div className="skills">
-                <h1><i>TECHNOLOGIES</i></h1>
+                <h1><i>SKILLS</i></h1>
                 <div className="list">
                    <h1><i>Front-End</i></h1>
                    <div>
-                    <img className="picture" src="https://p92.com/binaries/content/gallery/p92website/technologies/htmlcssjs-details.png" alt=""/>
-                    {/* <img className="picture"src="https://upload.wikimedia.org/wikipedia/commons/thumb/a/a7/React-icon.svg/1200px-React-icon.svg.png" alt=""/> */}
+                       <li>
+                        <ul>
+                            <h3>Html</h3>
+                            <h3>Css</h3>
+                            <h3>Javascript</h3>
+                            <h3>React</h3>
+                        </ul>
+                       </li>
                    </div>
                 </div>
                 <div className="list">
                    <h1><i>Back-End</i></h1>
+                   <div>
+                        <li>
+                            <ul>
+                                <h3>Mysql</h3>
+                            </ul>
+                        </li>
+                   </div>
+                </div>
+                <div className="list">
+                   <h1><i>Programming</i></h1>
+                   <div>
+                        <li>
+                            <ul>
+                                <h3>C language</h3>
+                                <h3>C++ language</h3>
+                            </ul>
+                        </li>
+                   </div>
+                </div>
+                <div className="list">
+                   <h1><i>Area of Interest</i></h1>
+                   <div>
+                        <li>
+                            <ul>
+                                <h3>DataBase Management System</h3>
+                                <h3>Operating System</h3>
+                                <h3>Networking</h3>
+                            </ul>
+                        </li>
+                   </div>
                 </div>
             </div>
-             {/* <div className="skills">
-                <h1><i>TECHNOLOGIES</i></h1>
-                <ol className="list">
-                 <li className="item">
-                    <h1>Programming</h1>
-                    <span><BsFillCCircleFill size="60px"/>
-                          </span>
-                    
-    
-                </li> 
-                <li className="item">
-                    <h1><em>Front-End</em></h1>
-                    <span><IoLogoHtml5 size="60px"/>
-                    <IoLogoCss3 size="60px"/>
-                    <IoLogoJavascript size="60px"/></span>
-                </li>
-                <li className="item">
-                    <h1><em>Back-End</em></h1>
-                    <span><IoLogoNodejs size="60px"/></span>
-                </li>
-                </ol>
-                </div>  */}
         </div> 
     )
 }
