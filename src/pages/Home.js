@@ -1,8 +1,8 @@
 import React from "react";
 import "../styles/Home.css";
 import Typewriter from "typewriter-effect";
-import {RiContactsFill} from "react-icons/ri";
-import {MdEmail} from "react-icons/md";
+// import {RiContactsFill} from "react-icons/ri";
+// import {MdEmail} from "react-icons/md";
 // import {BsFillCCircleFill} from "react-icons/bs";
 
 
@@ -22,9 +22,6 @@ const Home = () =>{
                 </h2>
                 <h4 className="prompt"><em>An independent and self motivated student
                      with a passion for learning and developing.</em></h4>
-               <RiContactsFill size="30px"/> <p>+91 9940870631</p>
-               <MdEmail size="30px"/>
-               <p>thenishasaravanan2002@gmail.com</p>
 
             </div>
                
