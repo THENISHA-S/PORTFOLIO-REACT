@@ -10,15 +10,6 @@ import {FaHome} from "react-icons/fa";
 const Footer=()=>{
     return(
         <div className="footer">
-            <a href={"https://github.com/THENISHA-S"}>
-             <BsGithub className="logo-icon" style={{color:"#fff"}}/>
-            </a>
-            <a href={"https://www.linkedin.com/in/thenisha-s-431b89223/"}>
-              <BsLinkedin className="logo-icon" style={{color:"#fff"}}/>
-            </a>
-            <a href="https://www.instagram.com/thenishasaravanan/">
-              <BsInstagram className="logo-icon" style={{color:"#fff"}}/>
-            </a>
 
             <div className="footer-container">
               <div className="left">
@@ -42,24 +33,18 @@ const Footer=()=>{
                   <p>thenishasaravanan2002@gmail.com</p>
                 </div>
               </div>
+              <div className="right">
+              <a href={"https://github.com/THENISHA-S"}>
+                    <BsGithub className="logo-icon" style={{color:"#fff"}}/>
+              </a>
+              <a href={"https://www.linkedin.com/in/thenisha-s-431b89223/"}>
+                    <BsLinkedin className="logo-icon" style={{color:"#fff"}}/>
+              </a>
+              <a href="https://www.instagram.com/thenishasaravanan/">
+                    <BsInstagram className="logo-icon" style={{color:"#fff"}}/>
+              </a>
+              </div>
             </div>
-
-
-
-
-            {/* <div>
-              <RiContactsFill size="30px"/>
-            </div>
-            <div>
-              <p>+91 9940870631</p>
-            </div>
-            <div>
-              <MdEmail size="30px"/>
-            </div>
-            <div>
-              <p>thenishasaravanan2002@gmail.com</p>
-            </div> */}
-            
         </div>
     )
 }

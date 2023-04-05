@@ -1,25 +1,38 @@
 import React from "react";
-import ProjectItem from "../components/ProjectItem";
 import "../styles/Project.css";
 import Darkweb from "../assets/darkweb.jpg";
 import Deftpatrol from "../assets/deftpatrol.jpg";
-import {BsGithub} from "react-icons/bs";
+import {NavLink} from "react-router-dom";
 
 const Project = () => {
     return (
-        <div className="projects">
-            <h1>My personal Projects</h1>
-            <div className="projectList">
-                <div>
-                <ProjectItem name="Dark Web Crawling" image={Darkweb} skills="Skills:Python" />
-                <BsGithub/>
+        <div className="work-container">
+            <h1 className="project-heading">Projects</h1>
+            <div className="project-container">
+                <div className="project-card">
+                    <img src={Deftpatrol} alt=""/>
+                    <h2 className="project-title">Deft Patrol Application</h2>
+                    <div className="pro-details">
+                        <p>This is a text</p>
+                        <div className="pro-btns">
+                           <NavLink to="url.com" className="btn">View</NavLink>
+                           <NavLink to="url.com" className="btn">Source</NavLink>
+                        </div>
+                    </div>
                 </div>
-                <div>
-                <ProjectItem name="Deft Patrol Application" image={Deftpatrol} skills="Skills: Android studio,Firebase,Java"/>
-
+            </div>
+            <div className="project-container">
+                <div className="project-card">
+                    <img src={Darkweb} alt="image"/>
+                    <h2 className="project-title">Darkweb Crawling</h2>
+                    <div className="pro-details">
+                        <p>This is a text</p>
+                        <div className="pro-btns">
+                           <NavLink to="url.com" className="btn">View</NavLink>
+                           <NavLink to="url.com" className="btn">Source</NavLink>
+                        </div>
+                    </div>
                 </div>
-                
-                
             </div>
         </div>
     );
