@@ -33,10 +33,10 @@ const Home = () =>{
                    <div>
                        <li>
                         <ul>
-                            <h3>Html</h3>
-                            <h3>Css</h3>
-                            <h3>Javascript</h3>
-                            <h3>React</h3>
+                            <h4>Html</h4>
+                            <h4>Css</h4>
+                            <h4>Javascript</h4>
+                            <h4>React</h4>
                         </ul>
                        </li>
                    </div>
@@ -46,7 +46,7 @@ const Home = () =>{
                    <div>
                         <li>
                             <ul>
-                                <h3>Mysql</h3>
+                                <h4>Mysql</h4>
                             </ul>
                         </li>
                    </div>
@@ -56,8 +56,8 @@ const Home = () =>{
                    <div>
                         <li>
                             <ul>
-                                <h3>C language</h3>
-                                <h3>C++ language</h3>
+                                <h4>C language</h4>
+                                <h4>C++ language</h4>
                             </ul>
                         </li>
                    </div>
@@ -67,9 +67,9 @@ const Home = () =>{
                    <div>
                         <li>
                             <ul>
-                                <h3>DataBase Management System</h3>
-                                <h3>Operating System</h3>
-                                <h3>Networking</h3>
+                                <h4>DataBase Management System</h4>
+                                <h4>Operating System</h4>
+                                <h4>Networking</h4>
                             </ul>
                         </li>
                    </div>
