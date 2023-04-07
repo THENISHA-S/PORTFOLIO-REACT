@@ -24,55 +24,36 @@ const Home = () =>{
                      with a passion for learning and developing.</em></h4>
 
             </div>
-               
 
-            <div className="skills">
-                <h1><i>SKILLS</i></h1>
-                <div className="list">
-                   <h1><i>Front-End</i></h1>
-                   <div>
-                       <li>
-                        <ul>
-                            <h4>Html</h4>
-                            <h4>Css</h4>
-                            <h4>Javascript</h4>
-                            <h4>React</h4>
-                        </ul>
-                       </li>
-                   </div>
-                </div>
-                <div className="list">
-                   <h1><i>Back-End</i></h1>
-                   <div>
-                        <li>
-                            <ul>
-                                <h4>Mysql</h4>
-                            </ul>
-                        </li>
-                   </div>
-                </div>
-                <div className="list">
-                   <h1><i>Programming</i></h1>
-                   <div>
-                        <li>
-                            <ul>
-                                <h4>C language</h4>
-                                <h4>C++ language</h4>
-                            </ul>
-                        </li>
-                   </div>
-                </div>
-                <div className="list">
-                   <h1><i>Area of Interest</i></h1>
-                   <div>
-                        <li>
-                            <ul>
-                                <h4>DataBase Management System</h4>
-                                <h4>Operating System</h4>
-                                <h4>Networking</h4>
-                            </ul>
-                        </li>
-                   </div>
+            <div className="sills">
+                <div className="skills_container">
+                    <div className="left">
+                        <div>
+                            <h1>Programming</h1>
+                            <p>C language</p>
+                            <p>C++ language</p>
+                        </div>
+                        <div>
+                            <h1>FrontEnd</h1>
+                            <p>HTML</p>
+                            <p>CSS</p>
+                            <p>Javascript</p>
+                            <p>Raect js</p>
+                        </div>
+                        <div>
+                            <h1>BackEnd</h1>
+                            <p>Mysql</p>
+                            <p>Node js</p>
+                        </div>
+                    </div>
+                    <div className="right">
+                      <div>
+                        <h1>Area of Interest</h1>
+                        <p>DBMS</p>
+                        <p>OS</p>
+                        <p>Networking</p>
+                      </div>
+                    </div>
                 </div>
             </div>
         </div> 
