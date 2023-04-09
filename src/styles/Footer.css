@@ -33,12 +33,12 @@
   flex-direction: row;
   padding: 1rem;
 }
-  /* .socialMedia svg {
+  .socialMedia svg {
     color: white;
     margin: 20px;
     font-size: 70px;
     cursor: pointer;
-  } */
+  }
   
   .footer p {
     color: white;

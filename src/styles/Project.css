@@ -3,12 +3,16 @@
   padding: 4rem 0 2rem 0;
 }
 .project-container{
-  max-width: 1140px;
+  max-width: 1000px;
   margin: auto;
   display: grid;
-  grid-template-columns: repeat(2,1fr);
+  grid-template-columns: repeat(2,2fr);
   grid-gap: 10px;
-  padding-bottom: 5rem;
+  padding-bottom: 3rem;
+}
+.work-container{
+  display: flex;
+  flex-direction: column;
 }
 .project-card{
   background: #1a1919;
@@ -39,3 +43,13 @@
     grid-template-columns: 1fr;
   }
 }
+
+
+/* .project-container{
+  max-width: 1000px;
+  margin: auto;
+  display: grid;
+  grid-template-columns: repeat(2,2fr);
+  grid-gap: 10px;
+  padding-bottom: 3rem;
+} */

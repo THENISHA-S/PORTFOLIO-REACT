@@ -1,10 +1,6 @@
 import React from "react";
 import "../styles/Home.css";
 import Typewriter from "typewriter-effect";
-// import {RiContactsFill} from "react-icons/ri";
-// import {MdEmail} from "react-icons/md";
-// import {BsFillCCircleFill} from "react-icons/bs";
-
 
 const Home = () =>{
     return(
